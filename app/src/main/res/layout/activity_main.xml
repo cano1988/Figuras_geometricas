@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:text="AREAS Y PERIMETROS"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/saddlebag"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/ibcuadrado"
+            android:layout_width="120dp"
+            android:layout_height="145dp"
+            android:layout_weight="1"
+            android:onClick="Cuadrado"
+            android:background="@color/gris"
+            app:srcCompat="@drawable/fig_cuadrado" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/ibrectangulo"
+            android:layout_width="120dp"
+            android:layout_height="145dp"
+            android:layout_weight="1"
+            android:onClick="Rectangulo"
+            android:background="@color/gris"
+            app:srcCompat="@drawable/fig_rectangulo" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/ibcirculo"
+            android:layout_width="120dp"
+            android:layout_height="145dp"
+            android:layout_weight="1"
+            android:onClick="Circulo"
+            android:background="@color/gris"
+            app:srcCompat="@drawable/fig_circulo" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/ibtriangulo"
+            android:layout_width="120dp"
+            android:layout_height="145dp"
+            android:layout_weight="1"
+            android:onClick="triangulo"
+            android:background="@color/gris"
+            app:srcCompat="@drawable/fig_triangulo" />
+    </LinearLayout>
+
+</LinearLayout>
